@@ -5,15 +5,15 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #09004067;
+  background-color: #4A4A4A;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --dark-purple: #471396;
-  --light-purple: #B13BFF;
-  --yellow: #FFCC00;
+  --primary-tekst: #E0E0E0;
+  --secondary-tekst: #B0B0B0;
+  --accent-blue: #2196F3;
 }
 
 a {

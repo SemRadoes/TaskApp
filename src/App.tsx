@@ -1,7 +1,7 @@
 
 import './App.css';
 import AddTask from './AddTask';
-
+import TaskField from './Tasks';
 function App() {
   
 
@@ -9,6 +9,7 @@ function App() {
     <>
       <h1>TaskApp</h1>
       <AddTask/>
+      <TaskField/>
     </>
   )
 }

@@ -1,34 +1,47 @@
-.inputbar{
-    height: 50px;
+.wrapperTask{
     width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
+}
+.inputbar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    gap: 5px;
 }
 
 .inputtaskbar{
     width: 100%;
-    border-radius: 30px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    border: none;
+}
+.inputbutton{
+    word-wrap: nowrap;
+    width: fit-content;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--accent-blue);
+    cursor: pointer;
+    color: var(--primary-tekst);
+}
+
+.selectTags{
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
     padding: 20px;
     border: none;
 }
 
-.inputbutton{
-    word-wrap: nowrap;
-    width: auto;
-    border-radius: 30px;
-    border: none;
-    position: absolute;
-    right: 4px;
-    height: 95%;
-    background-color: #FF5845;
-    cursor: pointer;
-}
-
 @media screen and (max-width: 425px) {
-    .inputbar{
-    width: 80%;
+    .wrapperTask{
+        width: 80%;
     
-}
+    }
 }
