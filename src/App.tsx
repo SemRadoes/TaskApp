@@ -1,7 +1,6 @@
 
 import './App.css';
-import AddTask from './AddTask';
-import TaskField from './Tasks';
+import {TaskField, AddTask} from './Tasks';
 function App() {
   
 

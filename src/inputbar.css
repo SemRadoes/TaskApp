@@ -1,9 +1,12 @@
 .wrapperTask{
-    width: 500px;
+    width: fit-content;
     display: flex;
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 50px;
+    padding: 10px;
+    background-color: rgb(46, 46, 35);
 }
 .inputbar{
     height: 50px;
@@ -32,11 +35,9 @@
     color: var(--primary-tekst);
 }
 
-.selectTags{
-    width: 100%;
-    border-radius: 10px 10px 10px 10px;
-    padding: 20px;
-    border: none;
+.checkbox{
+    display: flex;
+    gap: 5px
 }
 
 @media screen and (max-width: 425px) {
